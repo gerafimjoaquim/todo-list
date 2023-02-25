@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Portfólio</title>
+	<meta charset = "UTF-8"/>
+	 
+	<link rel="stylesheet" type="text/css" href="./css.css"/>
+	<link rel="stylesheet" type="text/css" href="./todo.css"/>
+</head>
+<body>
+	
+	<div class = "title-container">
+		<div>
+			<h1>Todo List</h1>
+			<div>
+				<p>Ainda em construção...</p><br>
+				<a class="btn btn-orange btn-go-to-repository">Baixar Código</a>
+			</div>
+		</div>
+		<div></div>
+	</div>
+
+	<div class="container todo-wrapper">
+	    <form class="form-search">
+	        <input class="search-box" type="search" name="search" placeholder="Buscar to-do" autocomplete="off"/>
+		</form>
+
+	    <ul class="todos-container">
+	      <li class="list-group-item" data-todo="Assistir Breaking Bad">
+	        <span>Assistir Breaking Bad</span>
+	        <span data-trash="Assistir Breaking Bad">⛌</span>
+	      </li>
+
+	      <li class="list-group-item" data-todo="Planificar aulas">
+	        <span>Planificar aulas</span>
+	        <span data-trash="Planificar aulas">⛌</span>
+	      </li>
+
+	      <li class="list-group-item" data-todo="Estudar JavaScript">
+	        <span>Estudar JavaScript</span>
+	        <span data-trash="Estudar JavaScript">⛌</span>
+	      </li>
+
+	    </ul>
+
+	    <form class="form-add-todo">
+	      <input class="search-box" type="text" name="add" autocomplete="off" autofocus placeholder="Adicionar to-do"/>
+	    </form>
+	</div>
+
+	<script src="./temps.js"></script>
+	<script src="./navigator.js"></script>
+	<script src="./todo.js"></script>
+</body>
+</html>
